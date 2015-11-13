@@ -19,7 +19,7 @@ module.exports =
       id: "internet"
       location: "http://google.com" # URLs are supported!
     }
-  ]
+  ] 
 
   # rootView:
   #   location: "example#getting-started"
@@ -34,7 +34,7 @@ module.exports =
       location: "example#using-the-scanner"
     }
   ]
-
+ 
   drawers:
     left:
       id: "drawer-content"
@@ -43,6 +43,6 @@ module.exports =
     options:
       animation: "swingingDoor"
   
-  # initialView:
-  #   id: "initialView"
-  #   location: "example#initial-view"
+   initialView:
+     id: "initialView"
+     location: "example#initial-view"
