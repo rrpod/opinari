@@ -19,7 +19,7 @@ module.exports =
       id: "internet"
       location: "http://google.com" # URLs are supported!
     }
-  ]
+  ] 
 
   # rootView:
   #   location: "example#getting-started"
@@ -38,7 +38,7 @@ module.exports =
       location: "example#japRest"
     }
   ]
-
+ 
   drawers:
     left:
       id: "drawer-content"
@@ -46,7 +46,7 @@ module.exports =
       showOnAppLoad: false
     options:
       animation: "swingingDoor"
-
-  # initialView:
-  #   id: "initialView"
-  #   location: "example#initial-view"
+  
+   initialView:
+     id: "initialView"
+     location: "example#initial-view"
