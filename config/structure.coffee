@@ -33,6 +33,10 @@ module.exports =
       id: "using-the-scanner"
       location: "example#using-the-scanner"
     }
+    {
+      id: "using-the-jap"
+      location: "example#japRest"
+    }
   ]
 
   drawers:
@@ -42,7 +46,7 @@ module.exports =
       showOnAppLoad: false
     options:
       animation: "swingingDoor"
-  
+
   # initialView:
   #   id: "initialView"
   #   location: "example#initial-view"

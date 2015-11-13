@@ -1,37 +1,52 @@
-<div ng-controller="IndexController">
+<div ng-controller="IndexController" >
+
+
 <div class="padding">
 
-  <super-navbar>
+	<super-navbar>
 
 <super-navbar-button ng-click="supersonic.ui.drawers.open('left')">
 &equiv;
 </super-navbar-button>
 
-<super-navbar-button ng-click="supersonic.ui.drawers.open('left')" >
-  <button class="button button-block button-stable">News Feed2</button>
+<super-navbar-button ng-click="supersonic.ui.drawers.open('left')" class="demo-pricing demo-pricing-1" >
+	News Feed2
 </super-navbar-button>
 
-  <super-navbar-button ng-click="supersonic.ui.drawers.open('left')">
+	<super-navbar-button ng-click="supersonic.ui.drawers.open('left')" ng-model="navBarRefreshButton">
  My Questions
 </super-navbar-button>
 
-  </super-navbar>
+	</super-navbar>
 
-  <p>Awesome! This file is located at <strong>app/example/views/getting-started.html</strong> &mdash; open it, change some text and save the file. The changes are updated to all connected devices. Cool, huh?</p>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0">
+<div class="container">
 
-  <p>Below, you can see our multi-page navigation in action. Tap on a button to move to a new view.</p>
+  <ul class="nav nav-pills" style="width:100%; margin:0 auto; text-align:center;">
+    <li class="active" style="width:49%;"><a href="#">Home</a></li>
+    <li style="width:49%;"><a href="#" >Menu</a></li>
+  </ul>
+</div>
 
-  <super-navigate view-id="using-the-scanner">
-    <button class="button button-block button-positive icon-left super-wand">Using the AppGyver Scanner</button>
-  </super-navigate>
 
-  <super-navigate view-id="learn-more">
-    <button class="button button-block button-positive icon-left super-university">Learn more</button>
-  </super-navigate>
+	<div class="list card" >
+		<a href="japRest.html" target="_self" class="item item-body getting-started-card" style="word-wrap: break-word;">
+	      Which Japanese restuarant is better? Sushi Nine or Hibachi
+	  </a>
+	  <a href="#" class="item item-body getting-started-card">
+	      Picking a dress for prom night? A or B.
+	  </a>
+	  <a href="#" class="item item-body getting-started-card">
+	      Date night movie selection dilemna.
+	  </a>
+	  <a href="#" class="item item-body getting-started-card">
+	      Suggestions for thanksgiving holiday trip
+	  </a>
+	  <a href="#" class="item item-body getting-started-card">
+	      Enter home address Enter home address Enter home address Enter home address Enter home address Enter home address Enter home address Enter home address Enter home address Enter home address
+	  </a>
 
-  <h2>Get in touch with us!</h2>
-
-  <p>Feel free to contact us at <a href="mailto:contact@appgyver.com">contact@appgyver.com</a>, we would love to get your feedback!</p>
+	</div>
 
 </div>
 </div>

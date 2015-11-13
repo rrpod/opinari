@@ -33,3 +33,14 @@ angular
         $timeout ->
           supersonic.app.splashscreen.hide()
         , 1000
+
+    $scope.navBarRefreshButton = new (supersonic.ui.NavigationBarButton)(
+      title: 'BLASDF'
+      onTap: ->
+        supersonic.app.statusBar.hide()
+        return
+    )
+
+    $scope.redirect_jap = ->
+      location.href = '#/japRest'
+      return
