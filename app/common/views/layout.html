@@ -9,13 +9,21 @@
   <link rel="stylesheet" href="/components/supersonic/css/supersonic.css" />
   <link rel="stylesheet" href="/app/common/stylesheets/application.css" />
   <link rel="stylesheet" href="/app/common/stylesheets/login.css" />
+  <link rel="stylesheet" href="/app/common/stylesheets/getting-started.css" />
   <link rel="import" href="/components/supersonic/components/import.html">
+  <link rel="stylesheet" href="/components/angular-bootstrap/ui-bootstrap-csp.css">
+  <link rel="stylesheet" href="/components/bootstrap/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="/components/bootstrap/css/bootstrap.min.css">
 
+  <script src="/components/jquery/dist/jquery.min.js"></script>
   <script src="http://localhost/cordova.js"></script>
   <script src="/components/steroids-js/steroids.js"></script>
   <script src="/components/angular/angular.js"></script>
   <script src="/components/supersonic/supersonic.js"></script>
   <script src="/components/webcomponentsjs/webcomponents.js"></script>
+  <script src="/components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+  <script src="/components/angular-bootstrap/ui-bootstrap.min.js"></script>
+  <script src="/components/bootstrap/js/bootstrap.min.js"></script>
 
   <% _.each(yield.modules, function(module) { %>
   <script src="/app/<%= module %>.js"></script>
