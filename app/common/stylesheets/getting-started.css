@@ -22,3 +22,78 @@
 .voffset2 {
 	margin-top: 10px;
 	width: 100%; }
+
+@import url(//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css);
+
+.detailBox {
+    width:100%;
+}
+.titleBox {
+    background-color:#fdfdfd;
+    padding:10px;
+}
+.titleBox label{
+  color:#444;
+  margin:0;
+  display:inline-block;
+}
+
+.commentBox {
+
+    border-top:1px dotted #bbb;
+}
+.commentBox .form-group:first-child, .actionBox .form-group:first-child {
+    width:100%;
+}
+.commentBox .form-group:nth-child(2), .actionBox .form-group:nth-child(2) {
+
+}
+.actionBox .form-group * {
+    width:100%;
+}
+.taskDescription {
+    margin-top:10px 0;
+}
+.commentList {
+    padding:0;
+    list-style:none;
+
+    overflow:auto;
+}
+.commentList li {
+    margin:0;
+    margin-top:10px;
+}
+.commentList li > div {
+    display:table-cell;
+}
+.commenterImage {
+
+    margin-right:5px;
+    height:100%;
+    float:left;
+    max-height: 30px;
+}
+.commenterImage img {
+    width:35px;
+    height: 35px;
+    border-radius:17.5px;
+    -webkit-border-radius: 17.5px;
+	-moz-border-radius: 17.5px;
+}
+.commentText p {
+    margin:0;
+}
+.sub-text {
+    color:#aaa;
+    font-family:verdana;
+    font-size:11px;
+}
+.actionBox {
+
+
+}
+
+.box {
+  border-style: groove;
+}
