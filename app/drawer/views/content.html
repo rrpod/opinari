@@ -7,19 +7,55 @@
   </super-navbar>
 
   <div class="padding">
+<script type="text/javascript">
+function myQuestions()
+{
+var view = new supersonic.ui.View("example#my-questions");
+supersonic.ui.layers.push(view);
+supersonic.ui.drawers.close().then( function() {
+supersonic.logger.debug("Drawer was closed");
+});
+}
+function myProfile()
+{
+var view = new supersonic.ui.View("example#my-profile");
+supersonic.ui.layers.push(view);
+supersonic.ui.drawers.close().then( function() {
+supersonic.logger.debug("Drawer was closed");
+});
+}
+function mySettings()
+{
+var view = new supersonic.ui.View("example#settings-page");
+supersonic.ui.layers.push(view);
+supersonic.ui.drawers.close().then( function() {
+supersonic.logger.debug("Drawer was closed");
+});
+}
 
-    <br>
-    <h3>You found me!</h3>
-    <br>
+</script>
+<div class="list">
 
-    <p>This is a native drawer menu. You can add these on either side of the application, or both!</p>
+  <a class="item item-icon-left" href="#" onclick="myQuestions()">
+    <i class="icon super-android-archive"></i>
+    My Questions
+  </a>
 
-    <p>To close the menu, <b>swipe</b> from the edge, <b>tap</b> the original view or <b>tap</b> the button below.</p>
+  <a class="item item-icon-left" href="#" onclick="myProfile()">
+    <i class="icon super-person"></i>
+  My Profile  
+  </a>
 
-    <br>
-    <button class="button button-positive button-block" ng-click="supersonic.ui.drawers.close()">
-      Close this menu
-    </button>
+  <a class="item item-icon-left" href="#" onclick="mySettings()">
+    <i class="icon super-gear-a"></i>
+    Settings
+  </a>
+  <a class="item item-icon-left" href="#" onclick="myQuestions()">
+    <i class="icon super-log-out"></i>
+      Log Out
+  </a>
+
+</div>
 
   </div>
 
