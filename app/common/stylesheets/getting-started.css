@@ -18,3 +18,7 @@
 	overflow: hidden;
 	/*white-space: nowrap;*/
 }
+
+.voffset2 {
+	margin-top: 10px;
+	width: 100%; }
