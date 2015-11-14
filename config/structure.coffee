@@ -37,6 +37,10 @@ module.exports =
       id: "using-the-jap"
       location: "example#japRest"
     }
+    {
+      id: "settings"
+      location: "example#settings"
+    }
   ]
  
   drawers:
