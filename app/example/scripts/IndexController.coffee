@@ -28,11 +28,7 @@ angular
     Splash screen
     ###
 
-    $scope.showSplashScreen = ->
-      supersonic.app.splashscreen.show().then () ->
-        $timeout ->
-          supersonic.app.splashscreen.hide()
-        , 1000
+
 
     $scope.navBarRefreshButton = new (supersonic.ui.NavigationBarButton)(
       title: 'BLASDF'
