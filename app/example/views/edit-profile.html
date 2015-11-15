@@ -1,3 +1,46 @@
+  <super-navbar>
+<super-navbar-title  class="demo-pricing demo-pricing-1" style="text-align:center;">
+  <div style="text-align:center;"><b> Edit Profile</b></div>
+</super-navbar-title>
+  </super-navbar>
+<style type="text/css">
+body, html {
+    height:100%;
+    width:100%;
+    min-height:100%;
+    padding:0;
+    margin:0;
+}
+.error {
+    width:200px;
+    height:20px;
+    height:auto;
+    position:absolute;
+    left:50%;
+    margin-left:-100px;
+    bottom:10px;
+    background-color: #383838;
+    color: #F0F0F0;
+    font-family: Calibri;
+    font-size: 20px;
+    padding:10px;
+    text-align:center;
+    border-radius: 2px;
+    -webkit-box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+    -moz-box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+    box-shadow: 0px 0px 24px -1px rgba(56, 56, 56, 1);
+}
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+ $('button').click(function () {
+    $('.error').stop().fadeIn(400).delay(2000).fadeOut(400); 
+});
+});
+</script>
+
 <div class="list">
   <label class="item item-input item-stacked-label">
     <span class="input-label">First Name</span>
@@ -17,7 +60,8 @@
   </label>
 </div>
  <div class="padding"> 
- <button class="button button-block button-positive">
+ <button class="button button-block button-positive" >
   Save Changes
 </button>
 </div>
+<div class='error' style='display:none'>Profile Updated!</div>
