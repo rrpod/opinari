@@ -64,7 +64,7 @@ tab-bar tab-bar-item marker-top:selected {
 }
 
 tab-bar-item#settings {
-  background-image: url(icons/cog.svg);
+  background-image: url(icons/fire19.svg);
 }
 
 tab-bar-item#index {
